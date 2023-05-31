@@ -1,0 +1,192 @@
+[
+  {
+    "id": "001",
+    "to": "you",
+    "from": "someone@gmail.com",
+    "subject": "testmail",
+    "content": "this is just test mail",
+    "starred": "false",
+    "bin": "false",
+    "type": "inbox"
+  },
+  {
+    "id": "002",
+    "to": "you",
+    "from": "someone@gmail.com",
+    "subject": "testmail",
+    "content": "this is just test mail",
+    "starred": "false",
+    "bin": "false",
+    "type": "inbox"
+  },
+  {
+    "id": "003",
+    "to": "you",
+    "from": "someone@gmail.com",
+    "subject": "testmail",
+    "content": "this is just test mail",
+    "starred": "false",
+    "bin": "false",
+    "type": "inbox"
+  },
+  {
+    "id": "004",
+    "to": "you",
+    "from": "someone@gmail.com",
+    "subject": "testmail",
+    "content": "this is just test mail",
+    "starred": "false",
+    "bin": "false",
+    "type": "inbox"
+  },
+  {
+    "id": "005",
+    "to": "you",
+    "from": "someone@gmail.com",
+    "subject": "testmail",
+    "content": "this is just test mail",
+    "starred": "false",
+    "bin": "false",
+    "type": "inbox"
+  },
+  {
+    "id": "006",
+    "to": "you",
+    "from": "someone@gmail.com",
+    "subject": "testmail",
+    "content": "this is just test mail",
+    "starred": "false",
+    "bin": "false",
+    "type": "inbox"
+  },
+  {
+    "id": "007",
+    "to": "you",
+    "from": "someone@gmail.com",
+    "subject": "testmail",
+    "content": "this is just test mail",
+    "starred": "false",
+    "bin": "false",
+    "type": "inbox"
+  },
+  {
+    "id": "008",
+    "to": "you",
+    "from": "someone@gmail.com",
+    "subject": "testmail",
+    "content": "this is just test mail",
+    "starred": "true",
+    "bin": "false",
+    "type": "inbox"
+  },
+  {
+    "id": "009",
+    "to": "you",
+    "from": "someone@gmail.com",
+    "subject": "testmail",
+    "content": "this is just test mail",
+    "starred": "true",
+    "bin": "false",
+    "type": "inbox"
+  },
+  {
+    "id": "010",
+    "to": "you",
+    "from": "someone@gmail.com",
+    "subject": "testmail",
+    "content": "this is just test mail",
+    "starred": "true",
+    "bin": "false",
+    "type": "inbox"
+  },
+  {
+    "id": "011",
+    "to": "you",
+    "from": "someone@gmail.com",
+    "subject": "testmail",
+    "content": "this is just test mail",
+    "starred": "true",
+    "bin": "false",
+    "type": "inbox"
+  },
+  {
+    "id": "012",
+    "to": "you",
+    "from": "someone@gmail.com",
+    "subject": "testmail",
+    "content": "this is just test mail",
+    "starred": "true",
+    "bin": "false",
+    "type": "inbox"
+  },
+  {
+    "id": "013",
+    "to": "you",
+    "from": "someone@gmail.com",
+    "subject": "testmail",
+    "content": "this is just test mail",
+    "starred": "true",
+    "bin": "false",
+    "type": "inbox"
+  },
+  {
+    "id": "014",
+    "to": "you",
+    "from": "someone@gmail.com",
+    "subject": "testmail",
+    "content": "this is just test mail",
+    "starred": "false",
+    "bin": "true",
+    "type": "inbox"
+  },
+  {
+    "id": "015",
+    "to": "you",
+    "from": "someone@gmail.com",
+    "subject": "testmail",
+    "content": "this is just test mail",
+    "starred": "false",
+    "bin": "true",
+    "type": "inbox"
+  },
+  {
+    "id": "016",
+    "to": "you",
+    "from": "someone@gmail.com",
+    "subject": "testmail",
+    "content": "this is just test mail",
+    "starred": "false",
+    "bin": "true",
+    "type": "inbox"
+  },
+  {
+    "id": "017",
+    "to": "you",
+    "from": "someone@gmail.com",
+    "subject": "testmail",
+    "content": "this is just test mail",
+    "starred": "false",
+    "bin": "true",
+    "type": "inbox"
+  },
+  {
+    "id": "018",
+    "to": "you",
+    "from": "someone@gmail.com",
+    "subject": "testmail",
+    "content": "this is just test mail",
+    "starred": "false",
+    "bin": "true",
+    "type": "inbox"
+  },
+  {
+    "id": "019",
+    "to": "you",
+    "from": "someone@gmail.com",
+    "subject": "testmail",
+    "content": "this is just test mail",
+    "starred": "false",
+    "bin": "true",
+    "type": "inbox"
+  }
+]
