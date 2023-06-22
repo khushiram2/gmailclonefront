@@ -1,12 +1,14 @@
 import React, { useState,useEffect } from 'react'
+import axios from 'axios'
 import { Api } from './globalapi'
 import { Listview } from './Listview'
 export const Allmails = ({sidebarOpen}) => {
 const [allmails,setallmails]=useState([])
+const id= window.localStorage.getItem("userid")
+const email= window.localStorage.getItem("email")
   useEffect(()=>{
-    fetch(`${Api}/allmails`,{ method:"Get"})
-    .then((res)=>res.json())
-    .then((data)=>setallmails(data))
+    axios.post(`${Api}/allmails/get/${id}`,{ email:email})
+    .then((res)=>setallmails(res.data))
   },[])
 
   return (

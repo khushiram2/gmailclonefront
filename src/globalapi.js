@@ -1,1 +1,1 @@
-export const Api="http://localhost:9900"
+export const Api="https://gamilclonebackend.onrender.com"

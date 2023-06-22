@@ -15,6 +15,7 @@ import { Link, useLocation } from 'react-router-dom';
 
 export const Sidebar = ({sidebarOpen}) => {
     const [newmailOpen,setNewmailOpen]=useState(false)
+    
     const location = useLocation()
    const pathname= location.pathname
    const styles={
@@ -39,12 +40,12 @@ export const Sidebar = ({sidebarOpen}) => {
                 <Button className='composebutton' onClick={()=>setNewmailOpen(!newmailOpen)} > <ModeEditOutlinedIcon/> Compose </Button>
             </div>
             <List className='inboxAndAll'>
-            <ListItem className='/inbox' style={(pathname==="/inbox")?styles:style}> <InboxOutlinedIcon/>  <Link className='link' to="/inbox" > Inbox </Link> </ListItem>
-            <ListItem className='/starred'  style={pathname==="/starred"?styles:style} > <StarBorderOutlinedIcon/> <Link className='link' to="/starred" >  Stared </Link></ListItem>
-            <ListItem className='/sentmails'  style={pathname==="/sentmails"?styles:style}> <SendOutlinedIcon/> <Link className='link' to="/sentmails" > Sent mails</Link> </ListItem>
-            <ListItem className='/drafts' style={pathname==="/drafts"?styles:style}> <InsertDriveFileOutlinedIcon/> <Link className='link' to="/drafts" >  Drafts </Link> </ListItem>
-            <ListItem className='/bin ' style={pathname==="/bin"?styles:style}> <DeleteOutlineOutlinedIcon/> <Link className='link' to="/bin" >  Bin </Link> </ListItem>
-            <ListItem className='/allmails' style={pathname==="/allmails"?styles:style}> <EmailOutlinedIcon/> <Link className='link' to="/allmails" >  All mails </Link> </ListItem>
+            <ListItem className='/inbox' style={(pathname==="/user/inbox")?styles:style}> <InboxOutlinedIcon/>  <Link className='link' to="/user/inbox" > Inbox </Link> </ListItem>
+            <ListItem className='/starred'  style={pathname==="/user/starred"?styles:style} > <StarBorderOutlinedIcon/> <Link className='link' to="/user/starred" >  Stared </Link></ListItem>
+            <ListItem className='/sentmails'  style={pathname==="/user/sentmails"?styles:style}> <SendOutlinedIcon/> <Link className='link' to="/user/sentmails" > Sent mails</Link> </ListItem>
+            <ListItem className='/drafts' style={pathname==="/user/drafts"?styles:style}> <InsertDriveFileOutlinedIcon/> <Link className='link' to="/user/drafts" >  Drafts </Link> </ListItem>
+            <ListItem className='/bin ' style={pathname==="/user/bin"?styles:style}> <DeleteOutlineOutlinedIcon/> <Link className='link' to="/user/bin" >  Bin </Link> </ListItem>
+            <ListItem className='/allmails' style={pathname==="/user/allmails"?styles:style}> <EmailOutlinedIcon/> <Link className='link' to="/user/allmails" >  All mails </Link> </ListItem>
             </List>
             </div>
             <NewMail setNewmailOpen={setNewmailOpen} newmailOpen={newmailOpen}/>
