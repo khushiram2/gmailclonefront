@@ -163,7 +163,7 @@ color: rgba(0, 0, 0, 0.87);
   margin-left: 5px !important;
 }
 .logincontainer{
-  height: 720px;
+  height: 800px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -173,7 +173,7 @@ color: rgba(0, 0, 0, 0.87);
 .logincard{
   width: 400px;
   background: #fff;
-  height: 400px;
+  height: 600px;
   padding: 1rem;
   border: 1px solid #dddfe2;
   box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 /10%);

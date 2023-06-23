@@ -34,7 +34,6 @@ export const SingleEmail = ({ sidebarOpen }) => {
       try {
           const res = await axios.get(`${Api}/email/${id}`)
           setData(res.data.email) 
-          console.log(res.data.email) 
           setNameOfreciever(res.data.nameOfReciever)
           setsenderuserid(res.data.email.userid)
         if(mailType==="recieved"){

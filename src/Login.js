@@ -42,8 +42,15 @@ export const Login = ({refresh,setrefresh,login}) => {
             <button onClick={()=>handleLogin()}>Login</button>
             <div>Or</div>
             <button onClick={()=>navigate("/register")}>Register</button>
-
+            <div>
+          <h1>user data</h1>
+          <p>user 1 - example@example.com</p>
+          <p>password - example123</p>
+          <p>user 2 - example1@example.com</p>
+          <p>password - example123</p>
         </div>
+        </div>
+
     </div>
   )
 }}else{
